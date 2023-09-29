@@ -32,7 +32,7 @@ conversation = ConversationChain(
     verbose=True
 )
 
-print(conversation.predict(input="I really hate my name."))
+print(conversation.predict(input="Hi, my name is Sam."))
 
 
 
